@@ -1,1 +1,12 @@
 @import 'core/reset';
+@import 'core/variables';
+@import'components/button';
+@import 'layout/header';
+@import 'layout/sectionOne';
+@import 'layout/sectionTwo';
+/* @import 'layout/sectionTree'; */
+
+
+:root {
+  font: 16px $fontMain;
+}

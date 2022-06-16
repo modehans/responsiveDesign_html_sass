@@ -1,0 +1,45 @@
+.button {
+  border: none;
+  height: 48px;
+  width: 176px;
+  text-transform: capitalize;
+  font-weight: 600;
+  background-color: $colorGreen;
+
+  &:hover {
+    background-color: $colorWithe;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $colorWithe;
+    margin: 18px 5px;
+
+    &:hover {
+      color: $colorGreen;
+    }
+  }
+
+}
+
+.button2 {
+  border: none;
+  height: 48px;
+  width: 176px;
+  text-transform: capitalize;
+  background-color: transparent;
+  font-weight: 600;
+
+  &:hover {
+    background-color: $colorWithe;
+  }
+
+  &__link {
+    color: $colorWithe;
+    padding: 18px 5px;
+
+    &:hover {
+      color: $colorGreen;
+    }
+  }
+}

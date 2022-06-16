@@ -1,0 +1,26 @@
+.sectionOne {
+  background-color: $colorLightGrey;
+  color: $colorGreen;
+  width: 100%;
+  padding-top: 41px;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 113px 250px 250px 250px;
+  grid-row: inherit;
+}
+
+.title1 {
+  font-size: 24px;
+  font-weight: 600;
+  max-width: 20ch;
+
+
+  & span {
+    text-transform: uppercase;
+  }
+}
+
+.title3 {
+  font-size: 20px;
+  font-weight: 600;
+}

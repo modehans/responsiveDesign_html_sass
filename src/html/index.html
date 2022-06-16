@@ -4,89 +4,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9a646766b9.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./assets/css/styles.css" />
   <link rel="icon" href="./assets/images/favicon.png" />
   <title>Evaluación final módulo 1</title>
 </head>
 
 <body>
-  <header>
-    <nav>
-      <img src="#" alt="Imagen menu">
-      <ul>
-        <li>Productos</li>
-        <li>Colecciones</li>
-        <li> Tienda</li>
-        <li> Inicio</li>
-      </ul>
-    </nav>
-    <hero>
-      <img src="" alt="">Logo empresa</img>
-      <h2>Disfruta creando espacios</h2>
-      <button>Comprar ahora</button>
-    </hero>
-  </header>
+  <include src="./partials/header.html"></include>
   <main>
-    <section>
-      <h1>Volverse organizado se siente mejor con <span>Open Spaces</span></h1>
-      <article>
-        <img src="" alt="">img mesa</img>
-        <h3>Lo que necesitas</h3>
-        <p>Una línea de productos diseñados para todos tus espacios</p>
-      </article>
-      <article>
-        <img src="" alt="">img bolsa reciclado</img>
-        <h3>Materia primas sustentables</h3>
-        <p>Todos los productos con materias primas sustentables</p>
-      </article>
-      <article>
-        <img src="" alt="">img cartel</img>
-        <h3>Guía</h3>
-        <p>Soporte y asesoramiento para ayudarte con tu objetivo</p>
-      </article>
-    </section>
-    <section>
-      <img src="" alt="">img envío</img>
-      <h2>Envío gratis garantizado</h2>
-      <p>Envío gratis en compras de 100€</p>
-      <button>Comprar ahora</button>
-    </section>
-    <section>
-      <h2>Disfruta crando espacios</h2>
-      <p>Una línea de productos diseñados para todos tus espacios</p>
-      <button>Comprar ahora</button>
-      <img src="" alt="">Img cestos</img>
-    </section>
+    <include src="./partials/sectionOne.html"></include>
+    <include src="./partials/sectionTwo.html"></include>
+    <include src="./partials/sectionThree.html"></include>
   </main>
-  <footer>
-    <section>
-      <h3>Tienda</h3>
-      <ul>
-        <li><a href=""> Productos</a></li>
-        <li><a href=""> Cajoneras</a></li>
-        <li><a href="">Para toda la Casa</a></li>
-        <li><a href="">Habitaciones</a></li>
-      </ul>
-    </section>
-    <section>
-      <h3>Nosotros</h3>
-      <ul>
-        <li><a href="">Nuestra guía</a></li>
-        <li><a href="">Nuestro diseño</a></li>
-        <li><a href=""> Nuestra historia</a></li>
-        <li><a href=""> Ayuda</a></li>
-      </ul>
-    </section>
-    <section>
-      <h3>Contacto</h3>
-      ayuda@openspaces.com
-      Socios
-      icon Linkedin
-      icon Instagram
-      icon Twitter
-    </section>
-    icon flecha
-  </footer>
+  <include src="./partials/footer.html"></include>
 </body>
 
 </html>
