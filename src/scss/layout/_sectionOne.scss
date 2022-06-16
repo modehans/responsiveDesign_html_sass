@@ -2,18 +2,32 @@
   background-color: $colorLightGrey;
   color: $colorGreen;
   width: 100%;
-  padding-top: 41px;
+  padding: 41px 15px 18px;
   text-align: center;
   display: grid;
-  grid-template-rows: 113px 250px 250px 250px;
-  grid-row: inherit;
+  grid-template-columns: 322px;
+  grid-template-rows: 113px 200px 200px 200px;
+  row-gap: 30px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  &__img {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 .title1 {
   font-size: 24px;
   font-weight: 600;
   max-width: 20ch;
-
+  max-width: 322px;
 
   & span {
     text-transform: uppercase;

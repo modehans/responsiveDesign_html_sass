@@ -1,4 +1,14 @@
 .send {
   height: 352px;
+  color: $colorWithe;
   background-color: $colorOrange;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  &__img {
+    width: 120px;
+    height: 120px;
+  }
 }
