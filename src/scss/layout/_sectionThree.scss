@@ -1,0 +1,48 @@
+.section3 {
+
+  @media all and (min-width:1728px) {
+    display: flex;
+    flex-direction: row;
+
+  }
+}
+
+.make {
+  color: $colorGreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px 0 92px;
+
+
+  @media all and (min-width:1728px) {}
+
+}
+
+.textMake {
+  height: 112px;
+  max-width: 360px;
+  text-align: center;
+  line-height: 1.5;
+
+  @media all and (min-width:1728px) {
+    text-align: left;
+    display: inline;
+  }
+
+  &__h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  &__min {
+    font-size: 14px;
+  }
+}
+
+.imgMake {
+  width: 100%;
+
+  @media all and (min-width:1728px) {}
+}
