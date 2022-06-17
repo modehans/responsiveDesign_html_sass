@@ -1,0 +1,20 @@
+.listMenu {
+  display: none;
+  color: $colorGreen;
+
+  :hover {
+    display: block;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $colorGreen;
+
+  }
+
+  @media all and (min-width:1728px) {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
