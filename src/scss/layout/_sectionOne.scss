@@ -9,8 +9,7 @@
   row-gap: 30px;
 
   @media all and (min-width:900px) {
-    margin-right: 20px;
-    grid-template-rows: 113px 200px;
+    grid-template-rows: 1fr 1fr;
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -19,13 +18,18 @@
 .title1 {
   font-size: 24px;
   font-weight: 600;
-  height: 113px;
   grid-column: 2/3;
+  line-height: 1.5;
 
   @media all and (min-width:900px) {
     grid-column: span 3;
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    @media all and (min-width:1728px) {
+      font-size: 36px;
+    }
   }
 
   &__description {
@@ -33,14 +37,14 @@
 
     @media all and (min-width:900px) {
       width: 35ch;
-      text-align: center;
     }
-
   }
 
-  &__name {
+  .name {
     text-transform: uppercase;
   }
+
+
 }
 
 .feature {
@@ -65,10 +69,13 @@
   &__title3 {
     font-size: 20px;
     font-weight: 600;
-    /*  width: 208px; */
+
+    @media all and (min-width:1728px) {
+      font-size: 24px;
+    }
   }
 
   &__description {
-    /*  width: 208px; */
+    font-size: 16px;
   }
 }

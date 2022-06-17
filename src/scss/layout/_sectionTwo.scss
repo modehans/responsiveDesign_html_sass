@@ -16,14 +16,26 @@
 
 .text {
   text-align: center;
-  line-height: 1.5;
+  line-height: 2;
 
   &__h2 {
     font-size: 24px;
     font-weight: 600;
+
+    @media all and (min-width:900px) {
+      font-size: 30px;
+    }
+
+    @media all and (min-width:1728px) {
+      font-size: 36px;
+    }
   }
 
   &__min {
     font-size: 14px;
+
+    @media all and (min-width:1728px) {
+      font-size: 16px;
+    }
   }
 }
