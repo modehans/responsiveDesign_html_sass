@@ -1,0 +1,62 @@
+@mixin title1B {
+  font-family: $fontMain;
+  font-size: 24px;
+  font-weight: 600;
+
+  @media all and (min-width:900px) {
+    font-size: 36px;
+  }
+}
+
+@mixin title2B {
+  font-family: $fontMain;
+  font-size: 24px;
+  font-weight: 600;
+
+  @media all and (min-width:1728px) {
+    font-size: 36px;
+  }
+}
+
+/* 
+@mixin title2Blod {
+  font-family: $fontMain;
+  font-size: 24px;
+  font-weight: 600;
+
+  @media all and (min-width:900px) {
+    font-size: 36px;
+  }
+
+  @media all and (min-width:1728px) {
+    font-size: 24px;
+  }
+}
+
+@mixin title2Blod {
+  font-family: $fontMain;
+  font-size: 24px;
+  font-weight: 600;
+
+  @media all and (min-width:900px) {
+    font-size: 36px;
+  }
+
+  @media all and (min-width:1728px) {
+    font-size: 24px;
+  }
+}
+
+@mixin title2Blod {
+  font-family: $fontMain;
+  font-size: 24px;
+  font-weight: 600;
+
+  @media all and (min-width:900px) {
+    font-size: 36px;
+  }
+
+  @media all and (min-width:1728px) {
+    font-size: 24px;
+  }
+} */
