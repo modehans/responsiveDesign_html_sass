@@ -1,0 +1,28 @@
+.newSection {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: $colorGreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media all and (min-width: 900px) {
+    background-color: $colorOrange;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__title {
+    color: $colorWithe;
+    padding: 0 20px;
+  }
+
+  &__description {
+    padding: 0 20px;
+  }
+
+  .linkNew {
+    color: $colorWithe;
+  }
+}
