@@ -62,5 +62,9 @@
 .iconArrow {
   color: $colorWithe;
   align-self: flex-end;
+  transition: 300ms;
 
+  &:hover {
+    transform: scale(2);
+  }
 }
