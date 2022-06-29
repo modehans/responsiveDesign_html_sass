@@ -17,23 +17,24 @@
     font-size: 16px;
     font-weight: 600;
     padding: 18px 25px;
-    transition: 500ms;
 
     &:hover {
       color: $colorGreen;
-      transform: scale(1.2)
     }
   }
 }
 
 .button2 {
+  padding: 0;
+  margin-top: 25px;
   border: none;
   height: 48px;
-  width: 176px;
   background-color: transparent;
+  transition: 500ms;
 
   &:hover {
     background-color: $colorWithe;
+    transform: scale(1.2);
   }
 
   &__link {
