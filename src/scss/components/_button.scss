@@ -1,12 +1,14 @@
 .button {
+  padding: 0;
   border: none;
   height: 48px;
-  width: 176px;
   text-transform: capitalize;
   background-color: $colorGreen;
+  transition: 500ms;
 
   &:hover {
     background-color: $colorWithe;
+    transform: scale(1.2)
   }
 
   &__link {
@@ -14,10 +16,12 @@
     color: $colorWithe;
     font-size: 16px;
     font-weight: 600;
-    padding: 18px 23px;
+    padding: 18px 25px;
+    transition: 500ms;
 
     &:hover {
       color: $colorGreen;
+      transform: scale(1.2)
     }
   }
 }
