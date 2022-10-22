@@ -10,7 +10,7 @@
   padding-left: 10%;
   padding-top: 15vh;
 
-  @media all and (min-width:1728px) {
+  @media all and (min-width:1280px) {
     position: absolute;
   }
 
@@ -21,7 +21,7 @@
   width: 24px;
   height: 24px;
 
-  @media all and (min-width:1728px) {
+  @media all and (min-width:1280px) {
     display: none;
   }
 }
@@ -36,7 +36,7 @@
 
   }
 
-  @media all and (min-width:1728px) {
+  @media all and (min-width:1280px) {
     display: flex;
     flex-direction: row;
     gap: 10px;

@@ -22,11 +22,11 @@
     font-size: 24px;
     font-weight: 600;
 
-    @media all and (min-width:900px) {
+    @media all and (min-width:768px) {
       font-size: 30px;
     }
 
-    @media all and (min-width:1728px) {
+    @media all and (min-width:1280px) {
       font-size: 36px;
     }
   }
@@ -34,7 +34,7 @@
   &__min {
     font-size: 14px;
 
-    @media all and (min-width:1728px) {
+    @media all and (min-width:1280px) {
       font-size: 16px;
     }
   }
