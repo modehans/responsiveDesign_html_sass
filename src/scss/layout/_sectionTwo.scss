@@ -17,17 +17,9 @@
   &__title2 {
     font-size: 24px;
     font-weight: 600;
-
-    @media all and (min-width:1280px) {
-      font-size: 36px;
-    }
   }
 
   &__description {
     font-size: 14px;
-
-    @media all and (min-width:1280px) {
-      font-size: 16px;
-    }
   }
 }

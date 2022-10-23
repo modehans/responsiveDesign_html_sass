@@ -7,40 +7,18 @@
   width: 100%;
   position: fixed;
   top: 0;
-  padding-left: 20px;
+  padding-left: 10%;
   padding-top: 15vh;
-
-  @media all and (min-width:1280px) {
-    position: absolute;
-  }
-
 }
 
 .fa-bars {
   color: $colorGreen;
   width: 24px;
   height: 24px;
-
-  @media all and (min-width:1280px) {
-    display: none;
-  }
 }
 
 .listMenu {
   display: none;
-  color: $colorGreen;
-
-  &__link {
-    text-decoration: none;
-    color: $colorGreen;
-
-  }
-
-  @media all and (min-width:1280px) {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-  }
 }
 
 .hero {

@@ -1,0 +1,79 @@
+@import 'core/variables';
+
+.menu {
+  position: absolute;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.listMenu {
+  color: $colorGreen;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  &__link {
+    text-decoration: none;
+    color: $colorGreen;
+
+  }
+}
+
+.title1 {
+  font-size: 36px;
+}
+
+.feature {
+  &__title3 {
+    font-size: 24px;
+  }
+}
+
+.send {
+  &__title2 {
+    font-size: 36px;
+  }
+
+  &__description {
+    font-size: 16px;
+  }
+}
+
+.section3 {
+  flex-direction: row;
+}
+
+.make {
+  width: 50%;
+  justify-content: center;
+  align-items: flex-start;
+  transform: translateX(25%);
+}
+
+.textMake {
+  max-width: 360px;
+  text-align: left;
+
+  &__h2 {
+    font-size: 36px;
+  }
+
+  &__min {
+    font-size: 16px;
+  }
+}
+
+.imgMake {
+  width: 50%;
+  height: 571px;
+}
+
+.titleItem {
+  font-size: 24px;
+}
+
+.linkItem {
+  font-size: 16px;
+}

@@ -3,10 +3,6 @@
   color: $colorGreen;
   display: flex;
   flex-direction: column;
-
-  @media all and (min-width:1280px) {
-    flex-direction: row;
-  }
 }
 
 .make {
@@ -16,40 +12,19 @@
   align-items: center;
   padding: 60px 20px;
   gap: 10px;
-
-  @media all and (min-width:1280px) {
-    width: 50%;
-    justify-content: center;
-    align-items: flex-start;
-    transform: translateX(35%);
-  }
 }
 
 .textMake {
   text-align: center;
   line-height: 2;
 
-
-  @media all and (min-width:1280px) {
-    max-width: 360px;
-    text-align: left;
-  }
-
   &__h2 {
     font-size: 24px;
     font-weight: 600;
-
-    @media all and (min-width:1280px) {
-      font-size: 36px;
-    }
   }
 
   &__min {
     font-size: 14px;
-
-    @media all and (min-width:1280px) {
-      font-size: 16px;
-    }
   }
 }
 
@@ -58,9 +33,4 @@
   height: 304px;
   background: url(../images/creando-espacios.jpg)center center no-repeat;
   background-size: cover;
-
-  @media all and (min-width:1280px) {
-    width: 50%;
-    height: 571px;
-  }
 }
