@@ -1,5 +1,7 @@
 # **Responsive Design App**
 
+Responsive application built in HTML, CSS and Sass with the [Adalab Starter Kit ](https://github.com/Adalab/adalab-web-starter-kit)
+
 ## What I have learnt! 👩‍💻
 
 ## Set up 🔧
