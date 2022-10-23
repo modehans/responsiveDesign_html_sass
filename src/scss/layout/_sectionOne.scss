@@ -1,43 +1,23 @@
 .sectionOne {
   box-sizing: border-box;
+  padding: 60px 20px;
   background-color: $colorLightGrey;
   color: $colorGreen;
-  padding: 8% 0;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
   row-gap: 30px;
-
-  @media all and (min-width:768px) {
-    grid-template-rows: 1fr 1fr;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
 }
 
 .title1 {
   font-size: 24px;
   font-weight: 600;
-  grid-column: 2/3;
   line-height: 1.5;
+  width: 280px;
 
-  @media all and (min-width:768px) {
-    grid-column: span 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    @media all and (min-width:1280px) {
-      font-size: 36px;
-    }
-  }
-
-  &__description {
-    width: 322px;
-
-    @media all and (min-width:768px) {
-      width: 35ch;
-    }
+  @media all and (min-width:1280px) {
+    font-size: 36px;
   }
 
   .name {
@@ -52,14 +32,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-column: 2/3;
   gap: 20px;
-
-
-  @media all and (min-width:768px) {
-    grid-row: 2/3;
-    grid-column: auto;
-  }
+  padding: 0 30px;
 
   &__img {
     width: 90px;
