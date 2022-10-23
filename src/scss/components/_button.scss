@@ -1,12 +1,12 @@
 .button {
-  /*   height: 48px; */
   text-transform: capitalize;
   background-color: $colorGreen;
   text-decoration: none;
   color: $colorWithe;
   font-weight: 600;
-  padding: 18px 23px;
+  padding: 15px 20px;
   transition: 500ms;
+  border-radius: 5px;
 
   &:hover {
     background-color: $colorWithe;
@@ -20,9 +20,10 @@
   background-color: transparent;
   font-weight: 600;
   color: $colorWithe;
-  padding: 18px 23px;
-  margin-top: 5px;
+  padding: 10px 20px;
+  margin: 10px;
   transition: 500ms;
+  border-radius: 5px;
 
   &:hover {
     background-color: $colorWithe;
